@@ -1,4 +1,4 @@
-package weightedMean
+package WeightedMean
 
 import (
 	"bufio"
@@ -19,7 +19,7 @@ func weightedMean(x []int64, w []int64) float64 {
 	return ans
 }
 
-func weightedMeanStart() {
+func WeightedMean() {
 	reader := bufio.NewReader(os.Stdin)
 	utils.ReadLine(reader)
 	xArr := utils.StringToArray(utils.ReadLine(reader))
